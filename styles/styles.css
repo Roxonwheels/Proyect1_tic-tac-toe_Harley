@@ -1,0 +1,9 @@
+
+
+header{
+    background-image: url(../images/route66sign-wallpaper.jpg);
+    display: flex;
+    /* background-size:; */
+    height: 1300px;
+    background-repeat: no-repeat;
+}
