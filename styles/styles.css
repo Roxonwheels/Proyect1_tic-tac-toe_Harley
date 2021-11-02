@@ -1,9 +1,29 @@
 
 
-header{
-    background-image: url(../images/route66sign-wallpaper.jpg);
+.main {
+    /* background-image: url(../images/route66sign-wallpaper.jpg); */
+    background-image: url(../images/vegassign-wallpaper.jpg);
+
     display: flex;
     /* background-size:; */
-    height: 1300px;
+    /* height: 1300px; */
+    height: 850px;
+    width: 13000px;
     background-repeat: no-repeat;
+    /* margin: 0px;  */
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:600px;
+    height: 600px;
+    margin:auto;
+    margin-left: 600px;
+}
+
+button{
+    background-color: transparent;
+    /* border-color: black; */
+    
 }
