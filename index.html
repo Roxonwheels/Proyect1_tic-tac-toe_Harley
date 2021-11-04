@@ -10,30 +10,43 @@
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    <main class="background">
+
+    <div class="background">
+
+        <!-- sonido/boton -->
+        <div>
+            <button id="sound-btn" > Sound
+            </button>
+            <audio id="audio" src="./HarleyQuinn-StayHigh.mp3" type="audio/mpeg">
+                <!-- type="audio/mpeg" -->
+            </audio>
+        </div>
+
+        <!-- Juego -->
+
         <div class="container-box">
-        <section class="title">
-            <h1>Tic Tac Toe</h1>
-        </section>
-        <section class="display">
-            Player <span class="display-player playerX">X</span>'s turn
-        </section>
-        <section class="container">
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-        </section>
-        <section class="display announcer hide"></section>
-        <section class="controls">
-            <button id="reset">Reset</button>
-        </section>
+            <div class="title">
+                <h1>Harley Quinn</h1>
+            </div>
+            <div class="display">
+                Player <span class="display-player playerX">X</span>'s turn
+            </div>
+            <div class="container">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="display announcer hide"></div>
+            <div class="controls">
+                <button id="reset">Reset</button>
+            </div>
+        </div>
     </div>
-    </main>
 </body>
 </html>

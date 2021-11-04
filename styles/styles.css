@@ -18,6 +18,25 @@ html{
     /* margin-left: ; */
 }
 
+#sound-btn{
+    /* background-color: transparent; */
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    background-color: #e70303;
+    font-family: harley-quinn-font;
+    color: white;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    border-radius: 8px;
+    border: none;
+    font-size: 30px;
+    margin-left: 1em;
+    cursor: url(../images/harley-cursor.png) , auto;
+}
+
 .container-box{
 margin-left: 30%;
 }
@@ -65,8 +84,8 @@ margin-left: 30%;
     justify-content: center;
     align-items: center;
     font-size: 80px;
-    cursor: pointer;      /*cuando pasas por encima el cursor se convierte en mano*/
     border-radius: 15px;
+    cursor: url(../images/harley-cursor.png),auto;
 }
 
 .playerX {
@@ -96,13 +115,11 @@ margin-left: 30%;
     font-size: 30px;
     margin-left: 1em;
     /* margin-left: 20px; */
-    cursor: pointer;
     margin-top:  20px;
+    cursor: url(../images/harley-cursor.png),auto;
+
 }
 
-.restart {
-    /* background-color: #498AFB; */
-}
 
 #reset {
     background-color: #e70303;

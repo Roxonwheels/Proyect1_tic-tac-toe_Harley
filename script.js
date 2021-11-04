@@ -1,9 +1,25 @@
 window.addEventListener('DOMContentLoaded', () => {
+    const audio = document.getElementById('audio')
+    const sounBtn = document.getElementById('sound-btn');
     const tiles = Array.from(document.querySelectorAll('.tile'));
     const playerDisplay = document.querySelector('.display-player');
     const resetButton = document.querySelector('#reset');
     const announcer = document.querySelector('.announcer');
-
+    
+    
+     //---------------------SONIDO-----------------------
+     
+     sounBtn.addEventListener("click", function(){
+         if (audio.paused) {
+           audio.play();
+          } else {
+           audio.pause();
+          } 
+        });
+ 
+     //-----------------------JUEGO----------------------------
+     
+    
     let board = ['', '', '', '', '', '', '', '', ''];
     let currentPlayer = 'X';
     let isGameActive = true;
@@ -13,12 +29,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const TIE = 'TIE';
 
 
-    /*
-        Indexes within the board
-        [0] [1] [2]
-        [3] [4] [5]
-        [6] [7] [8]
-    */
 
     const winningConditions = [
         [0, 1, 2],
