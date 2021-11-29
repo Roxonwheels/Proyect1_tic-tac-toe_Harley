@@ -1,8 +1,8 @@
 # Proyect1_tic-tac-toe_Harley #
 
 
-![image](https://user-images.githubusercontent.com/91464194/143822424-d7f64b40-626d-4b19-a77b-e89e27929a28.png)
-
+![pic-readme](https://user-images.githubusercontent.com/91464194/143822489-2be399d9-16bf-42db-be07-96e0a848aa91.png)
+https://roxonwheels.github.io/Proyect1_tic-tac-toe_Harley/
 
 
 
